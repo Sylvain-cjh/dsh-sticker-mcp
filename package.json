@@ -1,0 +1,11 @@
+{
+  "name": "dsh-sticker-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Session-scoped MCP sticker tools for DSH and qq-bridge",
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "scripts": { "start": "node src/server.js" },
+  "dependencies": { "@modelcontextprotocol/sdk": "^1.30.0", "zod": "^4.4.3" }
+}
